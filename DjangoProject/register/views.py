@@ -9,7 +9,6 @@ def register(response):
             form.save()
 
         return redirect("/home")
-
     else:
         form = RegisterForm()
 
